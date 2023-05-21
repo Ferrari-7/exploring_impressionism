@@ -42,7 +42,7 @@ def extract_features(img_path, model):
     # expand to fit dimensions
     expanded_img_array = np.expand_dims(img_array, axis=0)
     
-    # preprocess image - see last week's notebook
+    # preprocess image
     preprocessed_img = preprocess_input(expanded_img_array)
     
     # use the predict function to create feature representation
