@@ -26,3 +26,6 @@ The code in this repository does the following:
 `bash run.sh`
 
 ## Discussion of results
+
+The visualizations show that in all instances the artist with most amount of similar paintings is the target artist. This means that the VGG16 can recognize the specific artist's style. 
+

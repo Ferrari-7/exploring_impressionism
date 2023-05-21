@@ -127,7 +127,7 @@ def peform_feature_extraction(df, model):
 
     return df
 
-def visualize():
+def visualize(df):
     # defining custom palette 
     palette =  {"Pissarro" : "#E9DAAC", 
                 "Hassam" : "#B5D870", 
@@ -169,7 +169,7 @@ def main():
     model = load_model()
     df = load_data()
     df = peform_feature_extraction(df, model)
-    visualize()
+    visualize(df)
 
 if __name__=="__main__":
     main()
