@@ -1,10 +1,10 @@
 
 '''
 This code does the following:
-- loops through every painting in each folder
-- extracts features using VGG16
-- finds most similar painting for each paining using scikit-learn
-- makes a visualization for each artist showing the artists sorted by amount of most similar paintings
+1. loops through every painting in the dataset
+2. extracts features from each image using VGG16
+3. finds most similar painting for each paining using scikit-learn
+4. makes a visualization for each artist showing the artists sorted by amount of most similar paintings
 
 '''
 
