@@ -6,7 +6,7 @@ The VGG16 model can be used to extract features from images. Theese image embedd
 The code in this repository does the following: 
 1. loops through every painting in the dataset
 2. extracts features from each image using VGG16
-3. finds most similar painting for each paining using scikit-learn
+3. finds most similar painting for each paining using scikit-learn (except for the paintings by same artist)
 4. makes a visualization for each artist showing the artists sorted by amount of most similar paintings
 
 ## User instructions
@@ -29,6 +29,8 @@ The code in this repository does the following:
 
 In my first version of the script, I included instances where the nearest painting was by the same artist. In the end, this meant that in all instances the artist with the most amount of most similar paintings was the artist himself (i.e. the nearest artist to Cézanne was Cézanne). And this was by a very large margin. Although it was encouraging to see that the VGG16 model seemed to be able to recognize artist's style, I eventually chose to exclude nearest paintings by the same artist in order to focus on similarity to other artists. I did this by sorting out nearest indices where the index corresponded with the index number of the given artist.
 
+Below are the results from runnings the code:
+
 | | |
 | --- | --- |
 | ![](/out/Cezanne.png) | ![](/out/Degas.png) |
@@ -36,6 +38,13 @@ In my first version of the script, I included instances where the nearest painti
 | ![](/out/Matisse.png) | ![](/out/Monet.png) |
 | ![](/out/Pissarro.png) | ![](/out/Renoir.png) |
 | ![](/out/Sargent.png) |![](/out/VanGogh.png) |
+
+While researching the different artists and their relation to each other, it appears to me that some of these relations seem to be represented in the data. That being said, one should be careful not to actively try to confirm the results while overlooking when the results does not match up to one's expectations.
+
+For example the visualization for Gauguin shows that the two nearest artist are Pissarro and Cézanne. And this corresponds with the fact that Gauguin was friends with Pissarro and has been called his an unofficial pupil. Furthermore, Pissarro introduced Gauguin to Cézanne. Both have been said to have influenced him heavily.[^1]  
+
+[^1] Kang, Cindy. "Paul Gauguin (1848–1903)." *The Metropolitan Museum of Art*, march, 2011. https://www.metmuseum.org/toah/hd/gaug/hd_gaug.htm
+
 
 
 
