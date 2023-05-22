@@ -31,12 +31,13 @@ In my first version of the script, I included instances where the nearest painti
 
 ![](/out/Degas.png)
 
-|:---:|:---:|
-(|![](/out/Cezanne.png)|![](/out/Degas.png)|
-|![](/out/Gauguin.png)|![](/out/Hassam.png)
-|![](/out/Matisse.png)|![](/out/Monet.png)
-|![](/out/Pissarro.png)|![](/out/Renoir.png)
-|![](/out/Sargent.png)|![](/out/VanGogh.png)|)
+| | |
+| --- | --- |
+| ![](/out/Cezanne.png) | ![](/out/Degas.png) |
+| ![](/out/Gauguin.png) | ![](/out/Hassam.png) |
+| ![](/out/Matisse.png) | ![](/out/Monet.png) |
+| ![](/out/Pissarro.png) | ![](/out/Renoir.png) |
+| ![](/out/Sargent.png) |![](/out/VanGogh.png) |
 
 
 
