@@ -27,5 +27,17 @@ The code in this repository does the following:
 
 ## Discussion of results
 
-The visualizations show that in all instances the artist with most amount of similar paintings is the target artist. This means that the VGG16 can recognize the specific artist's style. 
+In my first version of the script, I included instances where the nearest painting was by the same artist. In the end, this meant that in all instances the artist with the most amount of most similar paintings was the artist himself (i.e. the nearest artist to Cézanne was Cézanne). And this was by a very large margin. Although it was encouraging to see that the VGG16 model seemed to be able to recognize artist's style, I eventually chose to exclude nearest paintings by the same artist in order to focus on similarity to other artists. I did this by sorting out nearest indices where the index corresponded with the index number of the given artist.
+
+(|!(/out/Cezanne.png)|!(/out/Degas.png)|
+|:---:|:---:|:---:|
+|!(/out/Gauguin.png)|!(/out/Hassam.png)|
+|:---:|:---:|:---:|
+|!(/out/Matisse.png)|!(/out/Monet.png)|
+|:---:|:---:|:---:|
+|!(/out/Pissarro.png)|!(/out/Renoir.png)|
+|:---:|:---:|:---:|
+|!(/out/Sargent.png)|!(/out/VanGogh.png)|)
+
+
 

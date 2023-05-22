@@ -77,16 +77,6 @@ def load_data():
             filename = root_dir + "/" + painting # defining filename
             new_data = {"artist": artist, "filename": filename}
             data.append(new_data)
-
-    # combining with data in validation folder
-    artists = os.listdir(os.path.join("..", "paintings", "validation", "validation"))
-    for artist in artists:
-        root_dir = os.path.join("..", "paintings", "validation", "validation", artist)
-        paintings = os.listdir(root_dir)
-        for painting in paintings:
-            filename = root_dir + "/" + painting
-            new_data = {"artist": artist, "filename": filename}
-            data.append(new_data)
     
     # making a data frame from list of dicts using pandas
     df = pd.DataFrame.from_records(data)
@@ -103,21 +93,29 @@ def peform_feature_extraction(df, model):
         feature_list.append(extract_features(filenames[i], model))
     
     # using K-Nearest Neighbours to find similar images
-    neighbors = NearestNeighbors(n_neighbors=10, 
-                             algorithm='brute',
-                             metric='cosine').fit(feature_list)
+    neighbors = NearestNeighbors(n_neighbors=100, 
+                                algorithm='brute',
+                                metric='cosine').fit(feature_list)
 
     data_nearest = []
     for i in range(len(feature_list)): # Looping through each number in index
         # calculate nearest neighbours for i in index
         distances, indices = neighbors.kneighbors([feature_list[i]])
-        # selecting nearest distance and index
-        nearest_distance = distances[0][1]
-        nearest_index = indices[0][1]
+        
+        indices = indices.tolist() #converting from numpy.ndarray to list
+        [indices] = indices # unpacking list to remove double brackets
+        selected_indices = []
+        for indx in indices:
+            # sorting out the indices where the closest painting is a painting by the same artist
+            if df.loc[indx, "artist"] is not df.loc[i, "artist"]:
+                selected_indices.append(indx)
+        
+        # using nearest index to locate nearest artist in data frame along with filename
+        nearest_index = selected_indices[0]
         # using nearest index to locate nearest artist in data frame along with filename
         nearest_artist = df.loc[nearest_index, "artist"]
         nearest_filename = df.loc[nearest_index, "filename"]
-        nearest_dict = {"nearest_artist": nearest_artist, "nearest_filename": nearest_filename, "distance": nearest_distance}
+        nearest_dict = {"nearest_artist": nearest_artist, "nearest_filename": nearest_filename}
         data_nearest.append(nearest_dict)
     
     # combining new data with previous data frame
