@@ -1,6 +1,6 @@
 # Exploring impressionist art with VGG16
 
-In this assignment I'm going to use the pretrained classifier VGG16 to explore similarities between impressionist artists. To do this, I will use a dataset containing nearly 5000 pieces of art from ten different impressionist artist. The dataset can been downloaded from Kaggle from this [link](https://www.kaggle.com/datasets/delayedkarma/impressionist-classifier-data).
+In this assignment I'm going to use the pretrained classifier VGG16 to explore similarities between impressionist artists. To do this, I will use a dataset containing nearly 5000 artworks from ten different impressionist artist. The dataset can been downloaded from Kaggle from this [link](https://www.kaggle.com/datasets/delayedkarma/impressionist-classifier-data).
 The VGG16 model can be used to extract features from images. Theese image embeddings can then be compared using scikit-learn in order to find the nearest neighbours of a given image. The image embedding is a vector representation consisting of a large array of numbers. 
 
 The code in this repository does the following: 
@@ -17,7 +17,7 @@ The code in this repository does the following:
 
 `unzip flowers.zip`
 
-4. Install necessary packages by running setup script like so:
+4. Install necessary packages by navigating to the *exploring_impressionism* repository and run the setup script like so:
 
 `bash setup.sh`
 
