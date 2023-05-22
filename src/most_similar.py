@@ -129,16 +129,16 @@ def peform_feature_extraction(df, model):
 
 def visualize(df):
     # defining custom palette 
-    palette =  {"Pissarro" : "#E9DAAC", 
-                "Hassam" : "#B5D870", 
+    palette =  {"Pissarro" : "#C0D670", 
+                "Hassam" : "#57A37F", 
                 "Monet" : "#97A7DA", 
-                "Degas" : "#EC8B36", 
-                "Matisse" : "#C263CD", 
+                "Degas" : "#8E7A2F", 
+                "Matisse" : "#E257DE", 
                 "Sargent" : "#934829", 
-                "Cezanne" : "#A3DDBE",
+                "Cezanne" : "#3E9EC8",
                 "Gauguin" : "#C5182D",
-                "Renoir" : "#BC9400",
-                "VanGogh" : "#F3D83C"}
+                "Renoir" : "#2C4792",
+                "VanGogh" : "#EEDA1A"}
 
     artist_list = df["artist"].unique()
     for artist in artist_list:
