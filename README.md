@@ -43,9 +43,13 @@ While researching the different artists and their relation to each other, it app
 
 For example the visualization for Gauguin shows that the two nearest artist are Pissarro and Cézanne. This corresponds with the fact that Gauguin was friends with Pissarro and has been called his unofficial pupil. Furthermore, Pissarro introduced Gauguin to Cézanne. Both have been said to have influenced him heavily.[^1] Henri Matisse has also been inspired by both Cézanne, Gauguin and Renoir, which corresponds with the top results being Gauguin and Cézanne.[^2]
 
-[^1] Kang, Cindy. "Paul Gauguin (1848–1903)," The Metropolitan Museum of Art, march, 2011. https://www.metmuseum.org/toah/hd/gaug/hd_gaug.htm
+Another example is Renoir and Degas who both have each other as the artist with most similar paintings. This may be due to the fact that they were both urban impressionist (as opposed to landscape impressionist), who depicted mainly life in the city and the people living in it.[^3]
 
-[^2] “Henri Matisse,” The National Gallery, accessed May 24, 2023, https://www.nationalgallery.org.uk/artists/henri-matisse 
+[^1] Kang, Cindy. "Paul Gauguin (1848–1903)," The Metropolitan Museum of Art, March, 2011. https://www.metmuseum.org/toah/hd/gaug/hd_gaug.htm.
+
+[^2] “Henri Matisse,” The National Gallery, accessed May 24, 2023, https://www.nationalgallery.org.uk/artists/henri-matisse.
+
+[^3] Bylsma, Megan, “ II. Chapter 9 – Pierre Auguste Renoir & Edgar Degas,” Open Education Alberta, accessed May 24, 2023, https://openeducationalberta.ca/19thcenturyart/chapter/chapter-9-renoir-and-degas/. 
 
 
 
