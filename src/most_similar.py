@@ -144,7 +144,7 @@ def visualize(df):
         d = df[df["artist"]==artist]
         
         # counting the amount the nearest artist apears. 
-        # this is done to make better visualizations where the artists are shown in descending order from most occuring to least
+        # this is done to make better visualizations where the artists are shown in descending order from most occurring to least
         count = d[["artist", "nearest_artist"]].groupby(["nearest_artist"]).count().reset_index() # counting
         count = count.sort_values(by="artist",ascending=False) # sort by descending
         order = count['nearest_artist'].tolist() # making into list for seaborn formatting
