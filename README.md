@@ -41,7 +41,7 @@ Below are the results from runnings the code:
 
 While researching the different artists and their relation to each other, it appears to me that some of these relations seem to be represented in the data. That being said, one should be careful not to actively try to confirm the results while overlooking when the results does not match up to one's expectations. Therefore, I have also looked into connections between artist who, according to the VGG16, have less similar paintings
 
-For example the visualization for Gauguin shows that the two nearest artist are Pissarro and Cézanne. This corresponds with the fact that Gauguin was friends with Pissarro and has been called his unofficial pupil. Furthermore, Pissarro introduced Gauguin to Cézanne. Both have been said to have influenced him heavily.[^1] Henri Matisse has also been inspired by both Cézanne, Gauguin and Renoir, which corresponds with the top results being Gauguin and Cézanne.
+For example the visualization for Gauguin shows that the two nearest artist are Pissarro and Cézanne. This corresponds with the fact that Gauguin was friends with Pissarro and has been called his unofficial pupil. Furthermore, Pissarro introduced Gauguin to Cézanne. Both have been said to have influenced him heavily.[^1] Henri Matisse has also been inspired by both Cézanne, Gauguin and Renoir, which corresponds with the top results being Gauguin and Cézanne.[^2]
 
 [^1] Kang, Cindy. "Paul Gauguin (1848–1903)," The Metropolitan Museum of Art, march, 2011. https://www.metmuseum.org/toah/hd/gaug/hd_gaug.htm
 
