@@ -44,6 +44,7 @@ While researching the different artists and their relation to each other, it app
 For example the visualization for Gauguin shows that the two nearest artist are Pissarro and Cézanne. This corresponds with the fact that Gauguin was friends with Pissarro and has been called his unofficial pupil. Furthermore, Pissarro introduced Gauguin to Cézanne. Both have been said to have influenced him heavily.[^1] Henri Matisse has also been inspired by both Cézanne, Gauguin and Renoir, which corresponds with the top results being Gauguin and Cézanne.
 
 [^1] Kang, Cindy. "Paul Gauguin (1848–1903)," The Metropolitan Museum of Art, march, 2011. https://www.metmuseum.org/toah/hd/gaug/hd_gaug.htm
+
 [^2] “Henri Matisse,” The National Gallery, accessed May 24, 2023, https://www.nationalgallery.org.uk/artists/henri-matisse 
 
 
