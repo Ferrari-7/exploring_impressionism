@@ -45,7 +45,7 @@ For example the visualization for Gauguin shows that the two nearest artist are 
 
 Another example is Renoir and Degas who both have each other as the artist with most similar paintings. This may be due to the fact that they were both urban impressionist (as opposed to landscape impressionist), who depicted mainly life in the city and the people living in it.[^3]
 
-If I were to expand on this project, I would try to train a classifier using the VGG16 model in order to see how well it would be able to predict the different artist. It could then be interesting to analyze the different avg F1-scores in order to see if they could reveal something about which artists have the most distinct (or perhaps consistent) styles. 
+If I were to expand on this project, I would try training classifier using the VGG16 model in order to see how well it would be able to predict the different artist. It could then be interesting to analyze the different avg F1-scores in order to see if they could reveal something about which artists have the most distinct (or perhaps consistent) styles. 
 
 [^1] Kang, Cindy. "Paul Gauguin (1848–1903)," The Metropolitan Museum of Art, March, 2011. https://www.metmuseum.org/toah/hd/gaug/hd_gaug.htm.
 
